@@ -22,3 +22,11 @@ $(document).ready(function (){
         }, 1000);
     });
 });
+
+$(document).ready(function (){
+    $("#click-contact").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#contact").offset().top
+        }, 1000);
+    });
+});
