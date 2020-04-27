@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta property="og:title" content="iPort's Natta PG">
@@ -16,11 +16,44 @@
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./public/img/icon/code.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-    <script src="./public/js/scrollAnimate.js"></script>
     <title>iPort</title>
 </head>
 
 <body>
+    <script>
+        $(document).ready(function () {
+            $("#click-join-my-port").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#about").offset().top
+                }, 1000);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#click-about").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#about").offset().top
+                }, 1000);
+            });
+        });
+
+
+        $(document).ready(function () {
+            $("#click-experience").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#experience").offset().top
+                }, 1000);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#click-contact").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#contact").offset().top
+                }, 1000);
+            });
+        });
+    </script>
     <header>
         <div class="row">
             <nav>
@@ -139,13 +172,14 @@
         <div class="row">
             <div class="col span-1-of-3">
                 <img src="./public/img/Banner/docker.png" alt="" class="img-banner">
-                <h4 class="text-banner" style="text-transform: none;">(Basic docker+create custom image Dockerfile and docker-compose.yml)</h4>
+                <h4 class="text-banner" style="text-transform: none;">(Basic docker+create custom image Dockerfile and
+                    docker-compose.yml)</h4>
             </div>
             <div class="col span-1-of-3">
                 <img src="./public/img/Banner/git.jpg" alt="" class="img-banner">
             </div>
         </div>
-        
+
     </section>
 
     <footer id="contact">
