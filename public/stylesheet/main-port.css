@@ -14,6 +14,11 @@ html,body{
     overflow-x: hidden;
 }
 
+.profile-pic{
+    border-radius: 20px;
+}
+
+
 .thai{
     font-family: 'Kanit','sans-serif';
 }
@@ -21,6 +26,12 @@ html,body{
 .row{
     max-width: 1140px;
     margin: 0 auto;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header{
@@ -38,6 +49,55 @@ header{
     left:50%;
     transform: translate(-50%,-50%);
     text-align: center;
+}
+
+.profile-detail{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+
+.profile-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profile-detail img{
+    height: 700px;
+    width: auto;
+}
+
+.experience{
+    display: flex;
+    justify-content: start;
+    margin-left: 4%;
+    
+}
+
+.section-video{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:40px;
+}
+
+.skill-lists{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.vid-del{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.vid-del video{
+    width: 500px;
 }
 
 h1,h2,h3,h4{
@@ -94,7 +154,6 @@ h1{
 .nav-ul{
     float: right;
     list-style: none;
-    margin-top: 40px;
 }
 
 .nav-ul li{
@@ -140,12 +199,14 @@ h2::after{
 
 .introduct-p{
     line-height: 145%;
-    width: 30%;
-    margin-left: 35%;
-    text-align: center;
+    width: 50%;
+    text-align: left;
+    margin-left: 15%;
 }
 
 .box{
+    display: flex;
+    flex-direction: column;
     padding: 40px;
     text-align: center;
 }
@@ -208,14 +269,14 @@ footer{
     padding-left: 150px;
 }
 
-.nav-footer img{
+.nav-footer img {
     width: 200px;
-    height: 200px;
+    height: auto;
     border-radius: 100px;
 }
 
-.box-img{
-    margin-top: 40px;
+.box-img {
+    /* margin-top: 40px; */
     padding-left: 250px;
 }
 
@@ -223,12 +284,30 @@ footer{
     margin-top: 30px;
 }
 
+.ul-skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.list-skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .img-banner{
-    display: inline-block;
-    margin-left: 140px;
-    margin-top: 10px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: transform 0.4s;
+}
+
+.img-banner:hover{
+    transform: scale(1.2);
 }
 
 .text-banner{
@@ -236,3 +315,15 @@ footer{
     margin-top: 10px;
 }
 
+
+.contact-item{
+    width: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.label {
+    margin-top: 0px;
+    margin-left: 10px;
+}

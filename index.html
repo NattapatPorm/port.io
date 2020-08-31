@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta property="og:title" content="iPort's Natta PG">
@@ -34,7 +34,6 @@
             </nav>
         </div>
         <div class="text-header">
-            <!-- <h1>Make difficulty look easy.<br><span class="ImportantHead-text">Make impossible</span> look cute.</h1> -->
             <h1><span class="ImportantHead-text">Make difference</span> and look easy.<br>Make impossible look cute.
             </h1>
             <a href="#" class="btn btn-join" id="click-join-my-port">Join My Port</a>
@@ -43,18 +42,29 @@
 
     <section class="section-about" id="about">
         <h2>Introduct Myself</h2>
-        <p class="introduct-p thai">
-            สวัสดีครับ ชื่อ ณัฐภัทร พึ่งชื่น <br>ชื่อเล่น พรหม นะครับ
-            <br>เรียนอยู่ที่มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ<br>สาขาวิทยาการคอมพิวเตอร์ ปี 4
-            เทอม 2
-            <br>งานอดิเรก เล่นกีต้าร์ อ่านหนังสือ เขียนนิยายบ้าง<br>(ปกติเขียนในเว็บ Dek-D อยู่นะครับ)
-        </p>
+        <div class="profile-detail">
+            <img src="./public/img/Pro1.JPG" class="profile-pic">
+            <div class="profile-para">
+                <p class="introduct-p">
+                    Hi My name's Nattapat.<br>You can call me Porm.
+                    <br>I graduated from King mongkut's university of technology north bangkok.
+                    <br>Faculty of applied science majoring in Com sci.
+                    <br>In my freetime i like to play the guitar , write novel and read a book.
+                    <br>Coding,Coding and Coding more Coding.
+                </p>
+                <p class="introduct-p thai">
+                    สวัสดีครับ ชื่อ ณัฐภัทร พึ่งชื่น <br>ชื่อเล่น พรหม นะครับ
+                    <br>จบจากมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ<br>สาขาวิทยาการคอมพิวเตอร์
+                    <br>งานอดิเรก เล่นกีต้าร์ อ่านหนังสือ เขียนนิยายบ้าง<br>(ปกติเขียนในเว็บ Dek-D อยู่นะครับ)
+                </p>
+            </div>
+        </div>
     </section>
 
     <section class="section-experience" id="experience">
         <h2>My experience</h2>
-        <div class="row">
-            <div class="col span-1-of-2 box">
+        <div class="experience">
+            <div class="box thai">
                 <i class="ion-easel icon-features"></i>
                 <h3>ตอนฝึกงานทํา CONTENT MANAGEMENT SYSTEM</h3>
                 <ul>
@@ -62,97 +72,119 @@
                     <li>ใช้ node.js + templete engine(ejs) เป็นหลักครับ</li>
                 </ul>
             </div>
-            <div class="col span-1-of-2 box">
+            <div class="box thai">
                 <i class="ion-filing icon-features"></i>
                 <h3>มีประสบการณ์รับงานกับอาจารย์ตอนปี 4</h3>
                 <ul>
-                    <li>เคยรับงานแก้ไขเว็บไซต์ระบบตรวจจับรถยนต์ของอาจารย์ตอนปี 4 เทอม1ครับ</li>
+                    <li>เคยรับงานแก้ไขเว็บไซต์ระบบตรวจจับรถยนต์ของอาจารย์ตอนปี 4 เทอม 1 ครับ</li>
                     <li>รับงานทํา dashboard วิเคราะห์ข้อมูลนักท่องเที่ยว<br>ของกรมศิลป์กับ อาจารย์ครับ</li>
                     <li>2 งานนี้ จะใช้ React,node.js,express.js,mongodb,<br>mssql server เป็นหลักครับ</li>
                 </ul>
-            </div>
+            </div>  
+            <div class="box thai">
+                <i class="ion-ios-box icon-features"></i>
+                <h3>มีประสบการณ์รับงานฟรีแลนซ์</h3>
+                <ul>
+                    <li>เคยรับงานทำเว็บไซต์ของบริษัท</li>
+                    <li>โดยรายละเอียดงานจะเป็นการเริ่มงานตั้งแต่ออกแบบ ทำหน้าเว็บไซต์<br>ทำระบบหลังบ้าน Back Office ทำ API</li>
+                    <li>งานนี้ จะใช้ NextJs,node.js,express.js,mysql เป็นหลักครับ</li>
+                </ul>
+            </div>         
         </div>
     </section>
 
     <section class="video-iProject">
         <h2>My Project</h2>
-        <div class="row box-video">
-            <div class="col span-1-of-2">
+        <div class="section-video">
+            <div class="vid-del">
                 <h3>Content Management System(ตอนฝึกงาน)</h3>
                 <video src="./public/video/CMS.mov" id="vid-cms" autoplay loop muted></video>
             </div>
-            <div class="col span-1-of-2">
+            <div class="vid-del">
                 <h3>iMusic</h3>
                 <video src="./public/video/iMusic.mov" id="vid-cms" autoplay loop muted></video>
             </div>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-2">
+            <div class="vid-del">
                 <h3>ระบบตรวจจับรถยนต์อัตโนมัติ</h3>
                 <video src="./public/video/SSTS.mov" id="vid-cms" autoplay loop muted></video>
             </div>
-            <div class="col span-1-of-2">
+            <div class="vid-del">
                 <h3>ระบบทำนายจำนวนนักท่องเที่ยวในแหล่งท่องเที่ยวสำคัญ</h3>
                 <video src="./public/video/fineart_timeseries.mp4" id="vid-cms" autoplay loop muted></video>
+            </div>
+            <div class="vid-del">
+                <h3>เว็บไซต์บริษัท</h3>
+                <video src="./public/video/FreeLance1.mov" id="vid-cms" autoplay loop muted></video>
+            </div>
+            <div class="vid-del">
+                <h3>ระบบ Back Office บริษัท</h3>
+                <video src="./public/video/FreeLance2.mov" id="vid-cms" autoplay loop muted></video>
             </div>
         </div>
     </section>
 
     <section class="skills-list">
         <h2>Skills</h2>
-        <div class="row">
-            <div class="col span-1-of-3">
-                <img src="./public/img/Banner/html.png" alt="" class="img-banner">
-            </div>
-            <div class="col span-1-of-3">
-                <img src="./public/img/Banner/css3.png" alt="" class="img-banner">
-                <h4 class="text-banner">(Basic CSS)</h4>
-            </div>
-            <div class="col span-1-of-3">
-                <img src="./public/img/Banner/javascirpt.png" alt="" class="img-banner">
-            </div>
+        <div class="skill-lists">
+            <ul class="ul-skill">
+                <li class="list-skill">
+                    <img src="./public/img/Banner/html.png" alt="" class="img-banner">
+                </li>
+                <li class="list-skill">
+                    <img src="./public/img/Banner/css3.png" alt="" class="img-banner">
+                </li>
+                <li class="list-skill">
+                    <img src="./public/img/Banner/javascirpt.png" alt="" class="img-banner">
+                </li>
+                
+            </ul>
+            <ul class="ul-skill">
+                <li class="list-skill">
+                    <img src="./public/img/Banner/react.png" alt="" class="img-banner">
+                </li>
+                <li class="list-skill">
+                    <img src="./public/img/Banner/node.png" alt="" class="img-banner">
+                </li>
+                <li class="list-skill">
+                    <img src="./public/img/Banner/express.png" alt="" class="img-banner">
+                </li>
+            </ul>
+            <ul class="ul-skill">
+                <li class="list-skill">
+                    <img src="./public/img/Banner/mysql.png" alt="" class="img-banner">
+                </li>
+                <li class="list-skill">
+                    <img src="./public/img/Banner/mongo.svg" alt="" class="img-banner">
+                </li>
+                <li class="list-skill">
+                    <img src="./public/img/Banner/docker.png" alt="" class="img-banner">
+                </li>
+            </ul>
+            <ul class="ul-skill">
+                <li class="list-skill">
+                    <img src="./public/img/Banner/nextjs.png" alt="" class="img-banner">
+                </li>
+                <li class="list-skill">
+                    <img src="./public/img/Banner/git.jpg" alt="" class="img-banner">
+                </li>
+                <li class="list-skill">
+                    <img src="./public/img/Banner/bitbucket.png" alt="" class="img-banner">
+                </li>
+            </ul>
+            <ul class="ul-skill">
+                <li class="list-skill">
+                    <img src="./public/img/Banner/jira.png" alt="" class="img-banner">
+                </li>
+            </ul>
         </div>
-        <div class="row">
-            <div class="col span-1-of-3">
-                <img src="./public/img/Banner/react.png" alt="" class="img-banner">
-            </div>
-            <div class="col span-1-of-3">
-                <img src="./public/img/Banner/node.png" alt="" class="img-banner">
-            </div>
-            <div class="col span-1-of-3">
-                <img src="./public/img/Banner/express.png" alt="" class="img-banner">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-3">
-                <img src="./public/img/Banner/php.png" alt="" class="img-banner">
-                <h4 class="text-banner">(Basic Create API from PHP)</h4>
-            </div>
-            <div class="col span-1-of-3">
-                <img src="./public/img/Banner/mysql.png" alt="" class="img-banner">
-            </div>
-            <div class="col span-1-of-3">
-                <img src="./public/img/Banner/mongo.svg" alt="" class="img-banner">
-                <h4 class="text-banner">(Basic CRUD)</h4>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-3">
-                <img src="./public/img/Banner/docker.png" alt="" class="img-banner">
-                <h4 class="text-banner" style="text-transform: none;">(Basic docker+create custom image Dockerfile and docker-compose.yml)</h4>
-            </div>
-            <div class="col span-1-of-3">
-                <img src="./public/img/Banner/git.jpg" alt="" class="img-banner">
-            </div>
-        </div>
-        
+
     </section>
 
     <footer id="contact">
         <h2>Contact Me</h2>
         <div class="row nav-footer">
             <div class="col span-1-of-3">
-                <div class="row">
+                <div class="row contact-item">
                     <div class="col">
                         <i class="ion-ios-telephone icon-features"></i>
                     </div>
@@ -160,15 +192,15 @@
                         <p>: 0971795263</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
+                <div class="contact-item">
+                    <div class="">
                         <i class="ion-email icon-features"></i>
                     </div>
-                    <div class="col label">
+                    <div class="label">
                         <p>: pigpormwork@gmail.com</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row contact-item">
                     <div class="col">
                         <i class="ion-social-skype icon-features"></i>
                     </div>
@@ -178,7 +210,7 @@
                 </div>
             </div>
             <div class="col span-2-of-3 box-img">
-                <img src="./public/img/ProfileFace.jpg" alt="Profile">
+                <img src="./public/img/Pro2.JPG" alt="Profile">
             </div>
         </div>
         <div class="row copyright" style="text-align: center;">
@@ -190,4 +222,3 @@
 </body>
 
 </html>
-

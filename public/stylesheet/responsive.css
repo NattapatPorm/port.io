@@ -15,6 +15,8 @@
         margin-top: 40px;
         padding-left: 200px;
     }
+
+    
 }
 
 @media only screen and (max-width:1024px){
@@ -24,6 +26,30 @@
 
     header div.row nav{
         padding: 0 30px;
+    }
+
+    .contact-item{
+        width: 120%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .label {
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .profile-detail img {
+        height: 800px;
+        width: auto;
+    }
+
+    .introduct-p {
+        line-height: 145%;
+        width: 80%;
+        text-align: left;
+        margin-left: 15%;
     }
 }
 
@@ -38,13 +64,17 @@
 
     .introduct-p{
         line-height: 145%;
-        width: 50%;
-        margin-left: 25%;
+        width: 70%;
+        margin-left: 15%;
         text-align: center;
     }
 
     .nav-ul{
         margin-top: 30px;
+    }
+
+    .experience {
+        flex-direction: column;
     }
 
 
@@ -55,10 +85,22 @@
         margin-top: 10px;
         padding-left: 150px;
     }
-    .box{
-        padding-left: 45px;
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        padding: 0 80px;
         text-align: center;
     }
+    .box{
+        padding-left: 45px;
+    }
+
+    .box ul {
+        margin-left: 20%;
+    }
+
+    
     
 
     .video-iProject div.row div.col video{
@@ -70,9 +112,9 @@
 
    
     
-    .nav-footer img{
+    .nav-footer img {
         width: 200px;
-        height: 200px;
+        height: auto;
         border-radius: 100px;
     }
     
@@ -87,7 +129,7 @@
     }
     
     .img-banner{
-        margin-left: 70px;
+        margin-left: 0px;
         margin-top: 10px;
         height: auto;
     }
@@ -95,6 +137,14 @@
     .copyright{
         margin-top: 20px;
     }
+    .contact-item{
+        width: 120%;
+        display: flex;
+        align-items: start;
+        justify-content: left;
+    }
+
+    
 }
 
 
@@ -115,9 +165,14 @@
         margin-left: 20%;
     }
 
-    .img-banner {
+    .img-banner{
+       
+        margin-left: 0px;
         margin-top: 40px;
-        margin-left: 150px;
+    }
+
+    .ul-skill {
+        flex-direction: column;
     }
 
     .box-img {
@@ -126,6 +181,29 @@
 
     .nav-footer {
         padding-left: 80px;
+    }
+
+    .profile-detail{
+        flex-direction: column;
+        margin: 10%;
+    }
+
+    .profile-detail img {
+        width: 80%;
+        height: auto;
+        margin: 30px;
+    }
+
+    .introduct-p {
+        margin-top: 40px;
+    }
+
+    .experience {
+        flex-direction: column;
+    }
+
+    .vid-del video {
+        width: 350px;
     }
 }
 
@@ -165,9 +243,9 @@
     }
    
     
-    .nav-footer img{
+    .nav-footer img {
         width: 200px;
-        height: 200px;
+        height: auto;
         border-radius: 100px;
     }
     
@@ -181,14 +259,14 @@
         margin-left: 20px;
     }
     
-    .img-banner{
-       
-        margin-left: 130px;
-        margin-top: 40px;
-    }
+    
 
     .copyright{
         margin-top: 20px;
+    }
+
+    .ul-skill {
+        flex-direction: column;
     }
 }
 
